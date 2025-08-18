@@ -286,7 +286,7 @@ jobs:
           # Adding comments (#) may be useful to easily tell the individual patches apart.
 
           # Loop: File: Loop.entitlements Added critical-alerts
-          curl https://github.com/DConmy/Loop/commit/5dc46caa1addb5e93a199417396e6eb8b83ad106 | git apply -v --directory=Loop
+          curl https://github.com/DConmy/Loop/commit/5dc46caa1addb5e93a199417396e6eb8b83ad106.patch | git apply -v --directory=Loop
 
 
 
